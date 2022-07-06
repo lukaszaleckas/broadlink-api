@@ -9,7 +9,7 @@ use BroadlinkApi\Exception\CommandException;
 use BroadlinkApi\Exception\ProtocolException;
 use BroadlinkApi\Protocol;
 
-final class NetDevice implements NetDeviceInterface
+class NetDevice implements NetDeviceInterface
 {
     /**
      * @var Protocol
